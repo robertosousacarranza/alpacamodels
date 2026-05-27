@@ -1,0 +1,12 @@
+# Entornos virtuales
+venv/
+__pycache__/
+
+# Variables de entorno (¡CRÍTICO!)
+.env
+
+# Archivos de datos locales (evita subir gigas de historial a GitHub)
+data/
+*.csv
+*.h5
+*.pkl
