@@ -1,0 +1,275 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780415440.164216  490133 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución DIARIA | 2026-06-02 09:50:48 ===
+
+🛡️ Diagnóstico de riesgo...
+💰 Liquidez: $178201.85 | Por Activo: $44550.46
+
+[AAPL] Analizando cierre diario...
+[AAPL] Prob. Alcista para HOY: 53.27%
+[AAPL] Manteniendo posición alcista.
+
+[JPM] Analizando cierre diario...
+[JPM] Prob. Alcista para HOY: 54.01%
+[JPM] Manteniendo posición alcista.
+
+[XOM] Analizando cierre diario...
+[XOM] Prob. Alcista para HOY: 57.92%
+[XOM] Manteniendo posición alcista.
+
+[GLD] Analizando cierre diario...
+[GLD] Prob. Alcista para HOY: 54.62%
+[GLD] Manteniendo posición alcista.
+
+✅ Análisis diario completado.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780495207.757886  572595 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución DIARIA | 2026-06-03 08:00:17 ===
+
+🛡️ Diagnóstico de riesgo...
+💰 Liquidez: $178185.05 | Por Activo: $44546.26
+
+[AAPL] Analizando cierre diario...
+[AAPL] Prob. Alcista para HOY: 53.29%
+[AAPL] Manteniendo posición alcista.
+
+[JPM] Analizando cierre diario...
+[JPM] Prob. Alcista para HOY: 54.01%
+[JPM] Manteniendo posición alcista.
+
+[XOM] Analizando cierre diario...
+[XOM] Prob. Alcista para HOY: 57.83%
+[XOM] Manteniendo posición alcista.
+
+[GLD] Analizando cierre diario...
+[GLD] Prob. Alcista para HOY: 54.60%
+[GLD] Manteniendo posición alcista.
+
+✅ Análisis diario completado.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780581608.343226  663939 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución DIARIA | 2026-06-04 08:00:17 ===
+
+🛡️ Diagnóstico de riesgo...
+💰 Liquidez: $356401.00 | Por Activo: $89100.25
+
+[AAPL] Analizando cierre diario...
+[AAPL] Prob. Alcista para HOY: 53.32%
+[AAPL] Manteniendo posición alcista.
+
+[JPM] Analizando cierre diario...
+[JPM] Prob. Alcista para HOY: 54.01%
+[JPM] Manteniendo posición alcista.
+
+[XOM] Analizando cierre diario...
+[XOM] Prob. Alcista para HOY: 57.79%
+[XOM] Manteniendo posición alcista.
+
+[GLD] Analizando cierre diario...
+[GLD] Prob. Alcista para HOY: 54.60%
+[GLD] Manteniendo posición alcista.
+
+✅ Análisis diario completado.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780668008.046261  753183 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución DIARIA | 2026-06-05 08:00:17 ===
+
+🛡️ Diagnóstico de riesgo...
+💰 Liquidez: $356168.95 | Por Activo: $89042.24
+
+[AAPL] Analizando cierre diario...
+[AAPL] Prob. Alcista para HOY: 53.34%
+[AAPL] Manteniendo posición alcista.
+
+[JPM] Analizando cierre diario...
+[JPM] Prob. Alcista para HOY: 54.03%
+[JPM] Manteniendo posición alcista.
+
+[XOM] Analizando cierre diario...
+[XOM] Prob. Alcista para HOY: 57.73%
+[XOM] Manteniendo posición alcista.
+
+[GLD] Analizando cierre diario...
+[GLD] Prob. Alcista para HOY: 54.58%
+[GLD] Manteniendo posición alcista.
+
+✅ Análisis diario completado.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780927209.115294 1024747 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución DIARIA | 2026-06-08 08:00:18 ===
+
+🛡️ Diagnóstico de riesgo...
+💰 Liquidez: $373442.33 | Por Activo: $93360.58
+
+[AAPL] Analizando cierre diario...
+[AAPL] Prob. Alcista para HOY: 53.37%
+[AAPL] Manteniendo posición alcista.
+
+[JPM] Analizando cierre diario...
+[JPM] Prob. Alcista para HOY: 54.04%
+[JPM] Manteniendo posición alcista.
+
+[XOM] Analizando cierre diario...
+[XOM] Prob. Alcista para HOY: 57.63%
+[XOM] Manteniendo posición alcista.
+
+[GLD] Analizando cierre diario...
+[GLD] Prob. Alcista para HOY: 54.58%
+[GLD] Manteniendo posición alcista.
+
+✅ Análisis diario completado.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781013608.665564 1119307 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución DIARIA | 2026-06-09 08:00:17 ===
+
+🛡️ Diagnóstico de riesgo...
+💰 Liquidez: $373095.10 | Por Activo: $93273.77
+
+[AAPL] Analizando cierre diario...
+[AAPL] Prob. Alcista para HOY: 53.40%
+[AAPL] Manteniendo posición alcista.
+
+[JPM] Analizando cierre diario...
+[JPM] Prob. Alcista para HOY: 54.04%
+[JPM] Manteniendo posición alcista.
+
+[XOM] Analizando cierre diario...
+[XOM] Prob. Alcista para HOY: 57.56%
+[XOM] Manteniendo posición alcista.
+
+[GLD] Analizando cierre diario...
+[GLD] Prob. Alcista para HOY: 54.56%
+[GLD] Manteniendo posición alcista.
+
+✅ Análisis diario completado.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781100008.767538 1213281 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución DIARIA | 2026-06-10 08:00:18 ===
+
+🛡️ Diagnóstico de riesgo...
+💰 Liquidez: $372375.33 | Por Activo: $93093.83
+
+[AAPL] Analizando cierre diario...
+[AAPL] Prob. Alcista para HOY: 53.43%
+[AAPL] Manteniendo posición alcista.
+
+[JPM] Analizando cierre diario...
+[JPM] Prob. Alcista para HOY: 54.05%
+[JPM] Manteniendo posición alcista.
+
+[XOM] Analizando cierre diario...
+[XOM] Prob. Alcista para HOY: 57.48%
+[XOM] Manteniendo posición alcista.
+
+[GLD] Analizando cierre diario...
+[GLD] Prob. Alcista para HOY: 54.53%
+[GLD] Manteniendo posición alcista.
+
+✅ Análisis diario completado.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781186410.240529 1306374 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución DIARIA | 2026-06-11 08:00:22 ===
+
+🛡️ Diagnóstico de riesgo...
+💰 Liquidez: $371935.03 | Por Activo: $92983.76
+
+[AAPL] Analizando cierre diario...
+[AAPL] Prob. Alcista para HOY: 53.47%
+[AAPL] Manteniendo posición alcista.
+
+[JPM] Analizando cierre diario...
+[JPM] Prob. Alcista para HOY: 54.06%
+[JPM] Manteniendo posición alcista.
+
+[XOM] Analizando cierre diario...
+[XOM] Prob. Alcista para HOY: 57.42%
+[XOM] Manteniendo posición alcista.
+
+[GLD] Analizando cierre diario...
+[GLD] Prob. Alcista para HOY: 54.49%
+[GLD] Manteniendo posición alcista.
+
+✅ Análisis diario completado.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781272808.719506 1400482 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución DIARIA | 2026-06-12 08:00:17 ===
+
+🛡️ Diagnóstico de riesgo...
+💰 Liquidez: $372470.31 | Por Activo: $93117.58
+
+[AAPL] Analizando cierre diario...
+[AAPL] Prob. Alcista para HOY: 53.51%
+[AAPL] Manteniendo posición alcista.
+
+[JPM] Analizando cierre diario...
+[JPM] Prob. Alcista para HOY: 54.06%
+[JPM] Manteniendo posición alcista.
+
+[XOM] Analizando cierre diario...
+[XOM] Prob. Alcista para HOY: 57.37%
+[XOM] Manteniendo posición alcista.
+
+[GLD] Analizando cierre diario...
+[GLD] Prob. Alcista para HOY: 54.45%
+[GLD] Manteniendo posición alcista.
+
+✅ Análisis diario completado.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781532008.286558 1682558 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución DIARIA | 2026-06-15 08:00:17 ===
+
+🛡️ Diagnóstico de riesgo...
+💰 Liquidez: $398684.72 | Por Activo: $99671.18
+
+[AAPL] Analizando cierre diario...
+[AAPL] Prob. Alcista para HOY: 53.55%
+[AAPL] 🟢 COMPRA. Nocional: $5581.59
+
+[JPM] Analizando cierre diario...
+[JPM] Prob. Alcista para HOY: 54.07%
+[JPM] 🟢 COMPRA. Nocional: $5581.59
+
+[XOM] Analizando cierre diario...
+[XOM] Prob. Alcista para HOY: 57.35%
+[XOM] 🟢 COMPRA. Nocional: $5581.59
+
+[GLD] Analizando cierre diario...
+[GLD] Prob. Alcista para HOY: 54.41%
+[GLD] 🟢 COMPRA. Nocional: $5581.59
+
+✅ Análisis diario completado.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781618409.037497 1776343 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución DIARIA | 2026-06-16 08:00:17 ===
+
+🛡️ Diagnóstico de riesgo...
+💰 Liquidez: $372292.52 | Por Activo: $93073.13
+
+[AAPL] Analizando cierre diario...
+[AAPL] Prob. Alcista para HOY: 53.58%
+[AAPL] Manteniendo posición alcista.
+
+[JPM] Analizando cierre diario...
+[JPM] Prob. Alcista para HOY: 54.08%
+[JPM] Manteniendo posición alcista.
+
+[XOM] Analizando cierre diario...
+[XOM] Prob. Alcista para HOY: 57.41%
+[XOM] Manteniendo posición alcista.
+
+[GLD] Analizando cierre diario...
+[GLD] Prob. Alcista para HOY: 54.39%
+[GLD] Manteniendo posición alcista.
+
+✅ Análisis diario completado.

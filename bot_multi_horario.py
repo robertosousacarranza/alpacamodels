@@ -121,8 +121,7 @@ modelo, scaler = cargar_modelo_lstm()
 #  DATOS (Intradía: velas de 15 minutos)
 # ═════════════════════════════════════════════════════════════════════════════
 
-def obtener_datos_intradia(simbolo, minutos=TIMEFRAME_MINUTOS,
-                            dias=DIAS_HISTORIA, intentos=3):
+def obtener_datos_intradia(api, simbolo, minutos=TIMEFRAME_MINUTOS, dias=DIAS_HISTORIA, intentos=3):
     """
     Descarga velas intradía de un símbolo.
     Alpaca da velas de 1 minuto; las agregamos a `minutos` con resample.
@@ -151,7 +150,7 @@ def obtener_datos_intradia(simbolo, minutos=TIMEFRAME_MINUTOS,
 
             # Agregar a la resolución deseada (ej. 15 min)
             # Usamos resample: OHLC
-            rule = f'{minutos}T'
+            rule = f'{minutos}min'
             ohlc_dict = {
                 'open': 'first',
                 'high': 'max',
@@ -172,11 +171,11 @@ def obtener_datos_intradia(simbolo, minutos=TIMEFRAME_MINUTOS,
     return None
 
 
-def obtener_todos_los_datos():
+def obtener_todos_los_datos(api):
     """Descarga datos intradía para todos los símbolos."""
     dfs = {}
     for simb in SIMBOLOS:
-        df = obtener_datos_intradia(simb)
+        df = obtener_datos_intradia(api, simb) # <--- Aquí le pasas el api
         if df is not None and len(df) > VENTANA_COVARIANZA:
             dfs[simb] = df
             logger.info(f"✅ {simb}: {len(df)} velas {TIMEFRAME_MINUTOS}min")
@@ -279,7 +278,7 @@ def ejecutar_ciclo():
         return
 
     # 3. Datos intradía
-    dfs = obtener_todos_los_datos()
+    dfs = obtener_todos_los_datos(api) # <--- Aquí le envías la conexión
     if dfs is None:
         return
 

@@ -17,8 +17,8 @@ from datetime import datetime, date
 logger = logging.getLogger("alpaca_bot")
 
 # ─── Configuración ──────────────────────────────────────────────────────────
-COSTO_POR_TRADE = 0.005       # 0.5% estimado (slippage ≈ 0.3-0.5% en micro-caps)
-UMBRAL_MINIMO_PESO_CAMBIO = 0.005  # 0.5% mínimo de cambio en asignación
+COSTO_POR_TRADE = 0.001       # 0.1% estimado (slippage ≈ 0.3-0.5% en micro-caps)
+UMBRAL_MINIMO_PESO_CAMBIO = 0.0005  # 0.05% mínimo de cambio en asignación
 MAX_TRADES_POR_DIA = 8        # límite diario de órdenes
 CAPITAL_REFERENCIA = 10000    # capital de referencia para calcular % real
 

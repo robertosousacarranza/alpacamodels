@@ -1,0 +1,1573 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780412468.670442  486463 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-02 09:01:19 ===
+💰 Capital líquido detectado: $188765.97
+Allocación por activo: $47191.49
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.40%
+[AAPL] 🟢 Señal de COMPRA. Nocional: $2642.72
+⚠️ Error procesando AAPL: notional value must be limited to 2 decimal places
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.10%
+[JPM] 🟢 Señal de COMPRA. Nocional: $2642.72
+⚠️ Error procesando JPM: notional value must be limited to 2 decimal places
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.14%
+[XOM] 🟢 Señal de COMPRA. Nocional: $2642.72
+⚠️ Error procesando XOM: notional value must be limited to 2 decimal places
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.70%
+[GLD] 🟢 Señal de COMPRA. Nocional: $2642.72
+⚠️ Error procesando GLD: notional value must be limited to 2 decimal places
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780416066.484277  490774 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-02 10:01:16 ===
+💰 Capital líquido detectado: $178199.52
+Allocación por activo: $44549.88
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.40%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.11%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.12%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.71%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780419668.217962  494617 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-02 11:01:18 ===
+💰 Capital líquido detectado: $178233.34
+Allocación por activo: $44558.33
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.41%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.11%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.10%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.71%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780423268.883958  498369 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-02 12:01:19 ===
+💰 Capital líquido detectado: $178225.39
+Allocación por activo: $44556.35
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.41%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.10%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.08%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.72%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780426868.324693  502059 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-02 13:01:18 ===
+💰 Capital líquido detectado: $178238.95
+Allocación por activo: $44559.74
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.42%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.10%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.06%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.73%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780430468.424923  505844 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-02 14:01:18 ===
+💰 Capital líquido detectado: $178223.97
+Allocación por activo: $44555.99
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.42%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.12%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.08%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.73%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780498868.444963  576405 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-03 09:01:17 ===
+💰 Capital líquido detectado: $178169.02
+Allocación por activo: $44542.25
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.42%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.09%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.02%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.73%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780502470.111937  580004 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-03 10:01:23 ===
+💰 Capital líquido detectado: $178155.33
+Allocación por activo: $44538.83
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.41%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.08%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.02%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.72%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780506068.912751  583612 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-03 11:01:20 ===
+💰 Capital líquido detectado: $178165.08
+Allocación por activo: $44541.27
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.41%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.09%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.05%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.72%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780509668.406983  587320 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-03 12:01:18 ===
+💰 Capital líquido detectado: $178158.52
+Allocación por activo: $44539.63
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.41%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.07%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.04%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.74%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780513268.614722  591042 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-03 13:01:18 ===
+💰 Capital líquido detectado: $178156.87
+Allocación por activo: $44539.22
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.40%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.06%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.04%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.74%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780516868.609539  594713 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-03 14:01:18 ===
+💰 Capital líquido detectado: $178128.49
+Allocación por activo: $44532.12
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.40%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.07%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.06%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.74%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780585267.147267  667584 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-04 09:01:18 ===
+💰 Capital líquido detectado: $356436.15
+Allocación por activo: $89109.04
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.40%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.10%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.03%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.76%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780588867.678788  671208 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-04 10:01:18 ===
+💰 Capital líquido detectado: $356530.95
+Allocación por activo: $89132.74
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.40%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.10%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.03%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.76%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780592467.722448  674858 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-04 11:01:17 ===
+💰 Capital líquido detectado: $356620.50
+Allocación por activo: $89155.12
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.41%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.12%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.02%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.76%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780596068.112001  678509 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-04 12:01:17 ===
+💰 Capital líquido detectado: $356595.64
+Allocación por activo: $89148.91
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.41%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.13%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.01%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.75%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780599667.972964  682191 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-04 13:01:17 ===
+💰 Capital líquido detectado: $356624.14
+Allocación por activo: $89156.04
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.41%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.14%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.00%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.75%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780603267.719828  685793 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-04 14:01:16 ===
+💰 Capital líquido detectado: $356573.54
+Allocación por activo: $89143.38
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.41%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.16%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.03%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.74%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780671668.486078  756896 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-05 09:01:18 ===
+💰 Capital líquido detectado: $356246.06
+Allocación por activo: $89061.51
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.43%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.16%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.03%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.62%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780675268.385776  760529 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-05 10:01:18 ===
+💰 Capital líquido detectado: $356030.13
+Allocación por activo: $89007.53
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.43%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.16%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.04%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.59%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780678868.334481  764203 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-05 11:01:18 ===
+💰 Capital líquido detectado: $355947.08
+Allocación por activo: $88986.77
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.43%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.16%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.05%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.59%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780682468.460104  767899 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-05 12:01:18 ===
+💰 Capital líquido detectado: $356028.69
+Allocación por activo: $89007.17
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.42%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.15%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.06%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.57%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780686067.739483  771685 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-05 13:01:17 ===
+💰 Capital líquido detectado: $355723.32
+Allocación por activo: $88930.83
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.42%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.14%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.06%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.56%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780689667.800865  775288 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-05 14:01:17 ===
+💰 Capital líquido detectado: $373014.96
+Allocación por activo: $93253.74
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.41%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.15%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.07%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.55%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780930868.647218 1028905 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-08 09:01:19 ===
+💰 Capital líquido detectado: $373716.25
+Allocación por activo: $93429.06
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.40%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.11%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.07%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.59%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780934469.348887 1033022 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-08 10:01:19 ===
+💰 Capital líquido detectado: $373517.09
+Allocación por activo: $93379.27
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.39%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.10%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.08%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.65%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780938067.665729 1036971 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-08 11:01:17 ===
+💰 Capital líquido detectado: $373443.14
+Allocación por activo: $93360.79
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.39%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.09%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.08%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.67%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780941668.153027 1041535 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-08 12:01:18 ===
+💰 Capital líquido detectado: $373375.79
+Allocación por activo: $93343.95
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.37%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.09%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.09%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.69%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780945268.137005 1045337 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-08 13:01:20 ===
+💰 Capital líquido detectado: $373224.81
+Allocación por activo: $93306.20
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.35%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.07%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.08%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.69%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780948868.576993 1049261 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-08 14:01:19 ===
+💰 Capital líquido detectado: $373052.57
+Allocación por activo: $93263.14
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.34%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.08%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.10%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.72%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781017270.233025 1123112 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-09 09:01:21 ===
+💰 Capital líquido detectado: $372610.29
+Allocación por activo: $93152.57
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.28%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.07%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.10%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.77%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781020869.515379 1126945 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-09 10:01:21 ===
+💰 Capital líquido detectado: $372099.23
+Allocación por activo: $93024.81
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.28%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.08%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.11%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.77%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781024470.102439 1131411 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-09 11:01:21 ===
+💰 Capital líquido detectado: $372020.33
+Allocación por activo: $93005.08
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.27%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.09%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.12%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.76%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781028070.313839 1135551 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-09 12:01:21 ===
+💰 Capital líquido detectado: $372301.93
+Allocación por activo: $93075.48
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.27%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.10%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.13%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.77%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781031670.198179 1139626 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-09 13:01:20 ===
+💰 Capital líquido detectado: $372492.35
+Allocación por activo: $93123.09
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.27%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.11%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.13%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.78%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781035271.216715 1143598 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-09 14:01:22 ===
+💰 Capital líquido detectado: $372470.81
+Allocación por activo: $93117.70
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.27%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.12%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.15%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.77%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781103668.457251 1217381 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-10 09:01:18 ===
+💰 Capital líquido detectado: $372148.72
+Allocación por activo: $93037.18
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.28%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.14%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.12%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.65%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781107269.937417 1221302 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-10 10:01:23 ===
+💰 Capital líquido detectado: $372167.05
+Allocación por activo: $93041.76
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.29%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.15%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.13%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.63%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781110871.785544 1225381 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-10 11:01:23 ===
+💰 Capital líquido detectado: $372172.16
+Allocación por activo: $93043.04
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.30%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.15%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.12%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.62%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781114470.582718 1229277 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-10 12:01:24 ===
+💰 Capital líquido detectado: $372203.32
+Allocación por activo: $93050.83
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.31%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.15%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.12%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.61%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781118069.340344 1233315 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-10 13:01:21 ===
+💰 Capital líquido detectado: $371934.11
+Allocación por activo: $92983.53
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.31%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.14%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.10%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.60%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781121670.576737 1237155 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-10 14:01:22 ===
+💰 Capital líquido detectado: $371700.43
+Allocación por activo: $92925.11
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.31%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.16%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.14%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.58%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781190068.370354 1310145 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-11 09:01:18 ===
+💰 Capital líquido detectado: $371691.61
+Allocación por activo: $92922.90
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.32%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.13%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.13%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.62%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781193668.456824 1314043 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-11 10:01:18 ===
+💰 Capital líquido detectado: $371975.85
+Allocación por activo: $92993.96
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.32%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.14%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.14%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.65%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781197271.211204 1317891 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-11 11:01:22 ===
+💰 Capital líquido detectado: $371840.78
+Allocación por activo: $92960.20
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.32%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.11%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.10%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.67%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781200868.874746 1321984 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-11 12:01:19 ===
+💰 Capital líquido detectado: $372359.41
+Allocación por activo: $93089.85
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.33%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.11%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.11%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.71%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781204468.122772 1326642 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-11 13:01:18 ===
+💰 Capital líquido detectado: $372440.93
+Allocación por activo: $93110.23
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.33%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.11%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.11%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.75%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781208068.186852 1330432 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-11 14:01:18 ===
+💰 Capital líquido detectado: $372479.47
+Allocación por activo: $93119.87
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.33%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.12%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.14%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.76%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781276469.253181 1404283 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-12 09:01:19 ===
+💰 Capital líquido detectado: $372843.57
+Allocación por activo: $93210.89
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.31%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.12%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.15%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.80%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781280069.389359 1408114 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-12 10:01:20 ===
+💰 Capital líquido detectado: $372682.85
+Allocación por activo: $93170.71
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.31%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.12%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.17%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.81%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781283670.403163 1412172 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-12 11:01:22 ===
+💰 Capital líquido detectado: $372747.30
+Allocación por activo: $93186.82
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.30%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.12%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.19%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.81%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781287268.515917 1416022 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-12 12:01:19 ===
+💰 Capital líquido detectado: $372696.86
+Allocación por activo: $93174.21
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.30%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.12%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.19%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.81%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781290867.660041 1419846 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-12 13:01:18 ===
+💰 Capital líquido detectado: $372701.01
+Allocación por activo: $93175.25
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.30%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.12%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.20%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.81%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781294467.611250 1423878 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-12 14:01:17 ===
+💰 Capital líquido detectado: $398684.80
+Allocación por activo: $99671.20
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.30%
+[AAPL] 🟢 Señal de COMPRA. Nocional: $5581.59
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.13%
+[JPM] 🟢 Señal de COMPRA. Nocional: $5581.59
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.21%
+[XOM] 🟢 Señal de COMPRA. Nocional: $5581.59
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.80%
+[GLD] 🟢 Señal de COMPRA. Nocional: $5581.59
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781535668.318937 1686389 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-15 09:01:17 ===
+💰 Capital líquido detectado: $372199.58
+Allocación por activo: $93049.90
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.31%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.12%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.37%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.79%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781539267.027381 1690240 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-15 10:01:16 ===
+💰 Capital líquido detectado: $372178.74
+Allocación por activo: $93044.68
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.32%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.11%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.43%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.77%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781542868.715000 1694061 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-15 11:01:19 ===
+💰 Capital líquido detectado: $372121.01
+Allocación por activo: $93030.25
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.33%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.11%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.47%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.73%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781546467.986764 1697863 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-15 12:01:18 ===
+💰 Capital líquido detectado: $371932.67
+Allocación por activo: $92983.17
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.33%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.10%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.49%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.70%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781550067.823462 1701628 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-15 13:01:17 ===
+💰 Capital líquido detectado: $372008.10
+Allocación por activo: $93002.02
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.33%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.08%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.52%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.68%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781553668.316264 1705499 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-15 14:01:18 ===
+💰 Capital líquido detectado: $371883.41
+Allocación por activo: $92970.85
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.33%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.09%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.56%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.67%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781622068.498024 1780666 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-16 09:01:19 ===
+💰 Capital líquido detectado: $372394.84
+Allocación por activo: $93098.71
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.35%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.10%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.58%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.65%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781625668.631701 1785180 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-16 10:01:18 ===
+💰 Capital líquido detectado: $372634.99
+Allocación por activo: $93158.75
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.36%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.10%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.58%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.66%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781629268.353561 1789102 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-16 11:01:18 ===
+💰 Capital líquido detectado: $372694.88
+Allocación por activo: $93173.72
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.36%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.10%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.57%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.67%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781632867.550946 1793241 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+=== Ejecución Horaria | 2026-06-16 12:01:17 ===
+💰 Capital líquido detectado: $372582.64
+Allocación por activo: $93145.66
+
+[AAPL] Analizando mercado...
+[AAPL] Probabilidad Alcista: 51.37%
+[AAPL] Manteniendo posición alcista existente.
+
+[JPM] Analizando mercado...
+[JPM] Probabilidad Alcista: 50.10%
+[JPM] Manteniendo posición alcista existente.
+
+[XOM] Analizando mercado...
+[XOM] Probabilidad Alcista: 51.57%
+[XOM] Manteniendo posición alcista existente.
+
+[GLD] Analizando mercado...
+[GLD] Probabilidad Alcista: 53.68%
+[GLD] Manteniendo posición alcista existente.
+
+✅ Ciclo maestro completado. Bot en modo reposo.
+./venv/bin/python: can't open file '/home/robertosousa1_618/alpacamodels/bot_multi_horario.py': [Errno 2] No such file or directory
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781640068.641991 1801465 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-16 14:01:19,391 | WARNING | ⚠️ No hay modelo LSTM intradía. Se usará SMA fallback.
+2026-06-16 14:01:19,394 | INFO    | 🚀 BOT HORARIO INICIADO — Un solo ciclo
+2026-06-16 14:01:19,394 | INFO    | =======================================================
+2026-06-16 14:01:19,394 | INFO    | 🔄 CICLO HORARIO — Pipeline multi-activo intradía...
+2026-06-16 14:01:19,394 | INFO    | 📈 Activos: AAPL, GLD, SPY, XOM
+2026-06-16 14:01:19,394 | INFO    | 📐 Kelly: 40% | Vol target: 12%
+2026-06-16 14:01:19,394 | INFO    | =======================================================
+2026-06-16 14:01:19,572 | INFO    | ✅ Alpaca: status=ACTIVE, cash=$77344.85
+2026-06-16 14:01:19,572 | WARNING | ⚠️ AAPL intento 1/3: name 'api' is not defined
+2026-06-16 14:01:22,573 | WARNING | ⚠️ AAPL intento 2/3: name 'api' is not defined
+2026-06-16 14:01:25,573 | WARNING | ⚠️ AAPL intento 3/3: name 'api' is not defined
+2026-06-16 14:01:28,574 | ERROR   | ❌ No se pudieron obtener datos intradía de AAPL
+2026-06-16 14:01:28,574 | WARNING | ⚠️ AAPL: datos insuficientes (0)
+2026-06-16 14:01:28,574 | WARNING | ⚠️ GLD intento 1/3: name 'api' is not defined
+2026-06-16 14:01:31,575 | WARNING | ⚠️ GLD intento 2/3: name 'api' is not defined
+2026-06-16 14:01:34,575 | WARNING | ⚠️ GLD intento 3/3: name 'api' is not defined
+2026-06-16 14:01:37,576 | ERROR   | ❌ No se pudieron obtener datos intradía de GLD
+2026-06-16 14:01:37,576 | WARNING | ⚠️ GLD: datos insuficientes (0)
+2026-06-16 14:01:37,576 | WARNING | ⚠️ SPY intento 1/3: name 'api' is not defined
+2026-06-16 14:01:40,577 | WARNING | ⚠️ SPY intento 2/3: name 'api' is not defined
+2026-06-16 14:01:43,577 | WARNING | ⚠️ SPY intento 3/3: name 'api' is not defined
+2026-06-16 14:01:46,578 | ERROR   | ❌ No se pudieron obtener datos intradía de SPY
+2026-06-16 14:01:46,578 | WARNING | ⚠️ SPY: datos insuficientes (0)
+2026-06-16 14:01:46,578 | WARNING | ⚠️ XOM intento 1/3: name 'api' is not defined
+2026-06-16 14:01:49,579 | WARNING | ⚠️ XOM intento 2/3: name 'api' is not defined
+2026-06-16 14:01:52,579 | WARNING | ⚠️ XOM intento 3/3: name 'api' is not defined
+2026-06-16 14:01:55,580 | ERROR   | ❌ No se pudieron obtener datos intradía de XOM
+2026-06-16 14:01:55,580 | WARNING | ⚠️ XOM: datos insuficientes (0)
+2026-06-16 14:01:55,580 | ERROR   | ❌ No hay suficientes activos con datos intradía.
