@@ -97,7 +97,7 @@ modelo, scaler = cargar_modelo_lstm()
 #  DATOS (Diarios)
 # ═════════════════════════════════════════════════════════════════════════════
 
-def obtener_datos_historicos(simbolo, dias=500, intentos=3):
+def obtener_datos_historicos(api, simbolo, dias=500, intentos=3):
     """Descarga velas diarias de un símbolo con reintentos."""
     for intento in range(intentos):
         try:
@@ -118,11 +118,11 @@ def obtener_datos_historicos(simbolo, dias=500, intentos=3):
     return None
 
 
-def obtener_todos_los_datos():
+def obtener_todos_los_datos(api):
     """Descarga datos diarios para todos los símbolos."""
     dfs = {}
     for simb in SIMBOLOS:
-        df = obtener_datos_historicos(simb)
+        df = obtener_datos_historicos(api, simb)
         if df is not None and len(df) > VENTANA_COVARIANZA:
             dfs[simb] = df
             logger.info(f"✅ {simb}: {len(df)} filas (diarias)")
@@ -216,7 +216,7 @@ def ejecutar_ciclo():
         return
 
     # 3. Descargar datos
-    dfs = obtener_todos_los_datos()
+    dfs = obtener_todos_los_datos(api)
     if dfs is None:
         return
 

@@ -1571,3 +1571,565 @@ To enable the following instructions: AVX2 FMA, in other operations, rebuild Ten
 2026-06-16 14:01:55,580 | ERROR   | ❌ No se pudieron obtener datos intradía de XOM
 2026-06-16 14:01:55,580 | WARNING | ⚠️ XOM: datos insuficientes (0)
 2026-06-16 14:01:55,580 | ERROR   | ❌ No hay suficientes activos con datos intradía.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781708468.777846 1880494 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-17 09:01:20,284 | INFO    | ✅ Modelo LSTM (intradía): /home/robertosousa1_618/alpacamodels/strategies/models/lstm_spy_modelo.keras
+2026-06-17 09:01:20,288 | INFO    | 🚀 BOT HORARIO INICIADO — Un solo ciclo
+2026-06-17 09:01:20,288 | INFO    | =======================================================
+2026-06-17 09:01:20,289 | INFO    | 🔄 CICLO HORARIO — Pipeline multi-activo intradía...
+2026-06-17 09:01:20,289 | INFO    | 📈 Activos: AAPL, GLD, SPY, XOM
+2026-06-17 09:01:20,289 | INFO    | 📐 Kelly: 40% | Vol target: 12%
+2026-06-17 09:01:20,289 | INFO    | =======================================================
+2026-06-17 09:01:20,503 | INFO    | ✅ Alpaca: status=ACTIVE, cash=$1000.00
+2026-06-17 09:01:26,879 | INFO    | ✅ AAPL: 660 velas 15min
+2026-06-17 09:01:27,265 | INFO    | ✅ GLD: 615 velas 15min
+2026-06-17 09:01:27,846 | INFO    | ✅ SPY: 665 velas 15min
+2026-06-17 09:01:28,320 | INFO    | ✅ XOM: 572 velas 15min
+2026-06-17 09:01:28,320 | INFO    | 🔍 Data Sanity Check — Validando datos de entrada...
+2026-06-17 09:01:28,347 | INFO    | ✅ Sanity Check: TODOS LOS DATOS VÁLIDOS
+2026-06-17 09:01:28,355 | INFO    | 🌡️ Régimen: NORMAL | Vol máx=3.8% → Riesgo completo
+2026-06-17 09:01:28,362 | INFO    | 🔮 AAPL: 40.0% (intradía)
+2026-06-17 09:01:28,363 | INFO    | 🔮 GLD: 60.0% (intradía)
+2026-06-17 09:01:29,262 | INFO    | 🔮 SPY: 57.3% (intradía)
+2026-06-17 09:01:29,264 | INFO    | 🔮 XOM: 60.0% (intradía)
+2026-06-17 09:01:29,264 | INFO    | 🔄 Pipeline de optimización completo (Kelly + Vol Dinámica)...
+2026-06-17 09:01:29,264 | INFO    | 📐 Matriz de covarianza rodante (60 días)...
+2026-06-17 09:01:29,294 | INFO    |    Covarianza: 4×4
+2026-06-17 09:01:29,297 | INFO    | 📊 Retornos esperados (Kelly-input): 4 activos
+2026-06-17 09:01:29,297 | INFO    | ⚙️ Optimización Kelly (4 activos, fracción=40%)...
+2026-06-17 09:01:29,306 | INFO    |    Kelly analítico: w_raw = [-17.34462405  18.84071965  17.52771473   9.79279887]
+2026-06-17 09:01:29,306 | INFO    |    Peso Kelly 1: 0.00%
+2026-06-17 09:01:29,307 | INFO    |    Peso Kelly 2: 13.33%
+2026-06-17 09:01:29,307 | INFO    |    Peso Kelly 3: 13.33%
+2026-06-17 09:01:29,307 | INFO    |    Peso Kelly 4: 13.33%
+2026-06-17 09:01:29,308 | INFO    | 📏 Vol scaling: 0.6% → 0.6% (ratio=2.00)
+2026-06-17 09:01:29,308 | INFO    | ==================================================
+2026-06-17 09:01:29,308 | INFO    | 📋 ASIGNACIÓN KELLY (40% fracción, riesgo=100%):
+2026-06-17 09:01:29,308 | INFO    |    AAPL:   0.0% → $    0.00
+2026-06-17 09:01:29,308 | INFO    |    GLD:  13.3% → $  133.33
+2026-06-17 09:01:29,308 | INFO    |    SPY:  13.3% → $  133.33
+2026-06-17 09:01:29,308 | INFO    |    XOM:  13.3% → $  133.33
+2026-06-17 09:01:29,308 | INFO    | ==================================================
+2026-06-17 09:01:29,308 | INFO    | 💼 Ejecutando asignación dinámica...
+2026-06-17 09:01:29,308 | INFO    |    Capital: $1000.00 | Factor riesgo: 1.00
+2026-06-17 09:01:29,341 | INFO    |    ⏭️  AAPL: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-17 09:01:29,372 | INFO    |    ⏭️  GLD: Costo $0.27 > Beneficio esperado $0.00
+2026-06-17 09:01:29,402 | INFO    |    ⏭️  SPY: Costo $0.27 > Beneficio esperado $0.00
+2026-06-17 09:01:29,434 | INFO    |    ⏭️  XOM: Costo $0.27 > Beneficio esperado $0.01
+2026-06-17 09:01:29,434 | INFO    | ✅ Asignación dinámica completada.
+
+2026-06-17 09:01:29,434 | INFO    | 📊 Trades hoy: 0
+2026-06-17 09:01:29,434 | INFO    | ✅ CICLO HORARIO COMPLETADO.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781712068.947676 1884516 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-17 10:01:22,956 | INFO    | ✅ Modelo LSTM (intradía): /home/robertosousa1_618/alpacamodels/strategies/models/lstm_spy_modelo.keras
+2026-06-17 10:01:22,960 | INFO    | 🚀 BOT HORARIO INICIADO — Un solo ciclo
+2026-06-17 10:01:22,961 | INFO    | =======================================================
+2026-06-17 10:01:22,961 | INFO    | 🔄 CICLO HORARIO — Pipeline multi-activo intradía...
+2026-06-17 10:01:22,961 | INFO    | 📈 Activos: AAPL, GLD, SPY, XOM
+2026-06-17 10:01:22,961 | INFO    | 📐 Kelly: 40% | Vol target: 12%
+2026-06-17 10:01:22,961 | INFO    | =======================================================
+2026-06-17 10:01:23,172 | INFO    | ✅ Alpaca: status=ACTIVE, cash=$1000.00
+2026-06-17 10:01:30,943 | INFO    | ✅ AAPL: 664 velas 15min
+2026-06-17 10:01:31,385 | INFO    | ✅ GLD: 619 velas 15min
+2026-06-17 10:01:32,143 | INFO    | ✅ SPY: 669 velas 15min
+2026-06-17 10:01:32,756 | INFO    | ✅ XOM: 576 velas 15min
+2026-06-17 10:01:32,757 | INFO    | 🔍 Data Sanity Check — Validando datos de entrada...
+2026-06-17 10:01:32,788 | INFO    | ✅ Sanity Check: TODOS LOS DATOS VÁLIDOS
+2026-06-17 10:01:32,799 | INFO    | 🌡️ Régimen: NORMAL | Vol máx=4.4% → Riesgo completo
+2026-06-17 10:01:32,812 | INFO    | 🔮 AAPL: 40.0% (intradía)
+2026-06-17 10:01:32,813 | INFO    | 🔮 GLD: 60.0% (intradía)
+2026-06-17 10:01:33,533 | INFO    | 🔮 SPY: 57.4% (intradía)
+2026-06-17 10:01:33,534 | INFO    | 🔮 XOM: 60.0% (intradía)
+2026-06-17 10:01:33,535 | INFO    | 🔄 Pipeline de optimización completo (Kelly + Vol Dinámica)...
+2026-06-17 10:01:33,535 | INFO    | 📐 Matriz de covarianza rodante (60 días)...
+2026-06-17 10:01:33,574 | INFO    |    Covarianza: 4×4
+2026-06-17 10:01:33,579 | INFO    | 📊 Retornos esperados (Kelly-input): 4 activos
+2026-06-17 10:01:33,580 | INFO    | ⚙️ Optimización Kelly (4 activos, fracción=40%)...
+2026-06-17 10:01:33,592 | INFO    |    Kelly analítico: w_raw = [-13.32530886  20.5820242   11.02125105   8.58430661]
+2026-06-17 10:01:33,593 | INFO    |    Peso Kelly 1: 0.00%
+2026-06-17 10:01:33,593 | INFO    |    Peso Kelly 2: 13.33%
+2026-06-17 10:01:33,593 | INFO    |    Peso Kelly 3: 13.33%
+2026-06-17 10:01:33,593 | INFO    |    Peso Kelly 4: 13.33%
+2026-06-17 10:01:33,594 | INFO    | 📏 Vol scaling: 0.6% → 0.6% (ratio=2.00)
+2026-06-17 10:01:33,595 | INFO    | ==================================================
+2026-06-17 10:01:33,595 | INFO    | 📋 ASIGNACIÓN KELLY (40% fracción, riesgo=100%):
+2026-06-17 10:01:33,595 | INFO    |    AAPL:   0.0% → $    0.00
+2026-06-17 10:01:33,595 | INFO    |    GLD:  13.3% → $  133.33
+2026-06-17 10:01:33,595 | INFO    |    SPY:  13.3% → $  133.33
+2026-06-17 10:01:33,595 | INFO    |    XOM:  13.3% → $  133.33
+2026-06-17 10:01:33,595 | INFO    | ==================================================
+2026-06-17 10:01:33,595 | INFO    | 💼 Ejecutando asignación dinámica...
+2026-06-17 10:01:33,595 | INFO    |    Capital: $1000.00 | Factor riesgo: 1.00
+2026-06-17 10:01:33,629 | INFO    |    ⏭️  AAPL: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-17 10:01:33,671 | INFO    |    ⏭️  GLD: Costo $0.27 > Beneficio esperado $0.00
+2026-06-17 10:01:33,704 | INFO    |    ⏭️  SPY: Costo $0.27 > Beneficio esperado $0.00
+2026-06-17 10:01:33,734 | INFO    |    ⏭️  XOM: Costo $0.27 > Beneficio esperado $0.01
+2026-06-17 10:01:33,734 | INFO    | ✅ Asignación dinámica completada.
+
+2026-06-17 10:01:33,735 | INFO    | 📊 Trades hoy: 0
+2026-06-17 10:01:33,735 | INFO    | ✅ CICLO HORARIO COMPLETADO.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781715668.830224 1888602 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-17 11:01:21,482 | INFO    | ✅ Modelo LSTM (intradía): /home/robertosousa1_618/alpacamodels/strategies/models/lstm_spy_modelo.keras
+2026-06-17 11:01:21,485 | INFO    | 🚀 BOT HORARIO INICIADO — Un solo ciclo
+2026-06-17 11:01:21,485 | INFO    | =======================================================
+2026-06-17 11:01:21,485 | INFO    | 🔄 CICLO HORARIO — Pipeline multi-activo intradía...
+2026-06-17 11:01:21,485 | INFO    | 📈 Activos: AAPL, GLD, SPY, XOM
+2026-06-17 11:01:21,485 | INFO    | 📐 Kelly: 40% | Vol target: 12%
+2026-06-17 11:01:21,485 | INFO    | =======================================================
+2026-06-17 11:01:21,653 | INFO    | ✅ Alpaca: status=ACTIVE, cash=$1000.00
+2026-06-17 11:01:25,872 | INFO    | ✅ AAPL: 668 velas 15min
+2026-06-17 11:01:26,253 | INFO    | ✅ GLD: 623 velas 15min
+2026-06-17 11:01:28,135 | INFO    | ✅ SPY: 673 velas 15min
+2026-06-17 11:01:28,808 | INFO    | ✅ XOM: 580 velas 15min
+2026-06-17 11:01:28,808 | INFO    | 🔍 Data Sanity Check — Validando datos de entrada...
+2026-06-17 11:01:28,841 | INFO    | ✅ Sanity Check: TODOS LOS DATOS VÁLIDOS
+2026-06-17 11:01:28,853 | INFO    | 🌡️ Régimen: NORMAL | Vol máx=4.4% → Riesgo completo
+2026-06-17 11:01:28,862 | INFO    | 🔮 AAPL: 40.0% (intradía)
+2026-06-17 11:01:28,863 | INFO    | 🔮 GLD: 60.0% (intradía)
+2026-06-17 11:01:29,799 | INFO    | 🔮 SPY: 57.4% (intradía)
+2026-06-17 11:01:29,800 | INFO    | 🔮 XOM: 60.0% (intradía)
+2026-06-17 11:01:29,800 | INFO    | 🔄 Pipeline de optimización completo (Kelly + Vol Dinámica)...
+2026-06-17 11:01:29,800 | INFO    | 📐 Matriz de covarianza rodante (60 días)...
+2026-06-17 11:01:29,832 | INFO    |    Covarianza: 4×4
+2026-06-17 11:01:29,835 | INFO    | 📊 Retornos esperados (Kelly-input): 4 activos
+2026-06-17 11:01:29,836 | INFO    | ⚙️ Optimización Kelly (4 activos, fracción=40%)...
+2026-06-17 11:01:29,848 | INFO    |    Kelly analítico: w_raw = [-14.2056798   30.74797683   7.53837778  14.84678923]
+2026-06-17 11:01:29,848 | INFO    |    Peso Kelly 1: 0.00%
+2026-06-17 11:01:29,848 | INFO    |    Peso Kelly 2: 13.33%
+2026-06-17 11:01:29,848 | INFO    |    Peso Kelly 3: 13.33%
+2026-06-17 11:01:29,848 | INFO    |    Peso Kelly 4: 13.33%
+2026-06-17 11:01:29,849 | INFO    | 📏 Vol scaling: 0.5% → 0.5% (ratio=2.00)
+2026-06-17 11:01:29,850 | INFO    | ==================================================
+2026-06-17 11:01:29,850 | INFO    | 📋 ASIGNACIÓN KELLY (40% fracción, riesgo=100%):
+2026-06-17 11:01:29,850 | INFO    |    AAPL:   0.0% → $    0.00
+2026-06-17 11:01:29,850 | INFO    |    GLD:  13.3% → $  133.33
+2026-06-17 11:01:29,850 | INFO    |    SPY:  13.3% → $  133.33
+2026-06-17 11:01:29,850 | INFO    |    XOM:  13.3% → $  133.33
+2026-06-17 11:01:29,850 | INFO    | ==================================================
+2026-06-17 11:01:29,850 | INFO    | 💼 Ejecutando asignación dinámica...
+2026-06-17 11:01:29,850 | INFO    |    Capital: $1000.00 | Factor riesgo: 1.00
+2026-06-17 11:01:29,882 | INFO    |    ⏭️  AAPL: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-17 11:01:29,913 | INFO    |    ⏭️  GLD: Costo $0.27 > Beneficio esperado $0.00
+2026-06-17 11:01:29,944 | INFO    |    ⏭️  SPY: Costo $0.27 > Beneficio esperado $0.00
+2026-06-17 11:01:29,981 | INFO    |    ⏭️  XOM: Costo $0.27 > Beneficio esperado $0.01
+2026-06-17 11:01:29,981 | INFO    | ✅ Asignación dinámica completada.
+
+2026-06-17 11:01:29,982 | INFO    | 📊 Trades hoy: 0
+2026-06-17 11:01:29,982 | INFO    | ✅ CICLO HORARIO COMPLETADO.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781719269.106438 1892429 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-17 12:01:21,320 | INFO    | ✅ Modelo LSTM (intradía): /home/robertosousa1_618/alpacamodels/strategies/models/lstm_spy_modelo.keras
+2026-06-17 12:01:21,324 | INFO    | 🚀 BOT HORARIO INICIADO — Un solo ciclo
+2026-06-17 12:01:21,324 | INFO    | =======================================================
+2026-06-17 12:01:21,324 | INFO    | 🔄 CICLO HORARIO — Pipeline multi-activo intradía...
+2026-06-17 12:01:21,324 | INFO    | 📈 Activos: AAPL, GLD, SPY, XOM
+2026-06-17 12:01:21,324 | INFO    | 📐 Kelly: 40% | Vol target: 12%
+2026-06-17 12:01:21,324 | INFO    | =======================================================
+2026-06-17 12:01:21,506 | INFO    | ✅ Alpaca: status=ACTIVE, cash=$1000.00
+2026-06-17 12:01:23,090 | INFO    | ✅ AAPL: 672 velas 15min
+2026-06-17 12:01:23,497 | INFO    | ✅ GLD: 627 velas 15min
+2026-06-17 12:01:24,266 | INFO    | ✅ SPY: 677 velas 15min
+2026-06-17 12:01:24,830 | INFO    | ✅ XOM: 584 velas 15min
+2026-06-17 12:01:24,830 | INFO    | 🔍 Data Sanity Check — Validando datos de entrada...
+2026-06-17 12:01:24,854 | INFO    | ✅ Sanity Check: TODOS LOS DATOS VÁLIDOS
+2026-06-17 12:01:24,862 | INFO    | 🌡️ Régimen: NORMAL | Vol máx=4.7% → Riesgo completo
+2026-06-17 12:01:24,870 | INFO    | 🔮 AAPL: 40.0% (intradía)
+2026-06-17 12:01:24,870 | INFO    | 🔮 GLD: 60.0% (intradía)
+2026-06-17 12:01:25,691 | INFO    | 🔮 SPY: 57.4% (intradía)
+2026-06-17 12:01:25,692 | INFO    | 🔮 XOM: 40.0% (intradía)
+2026-06-17 12:01:25,692 | INFO    | 🔄 Pipeline de optimización completo (Kelly + Vol Dinámica)...
+2026-06-17 12:01:25,692 | INFO    | 📐 Matriz de covarianza rodante (60 días)...
+2026-06-17 12:01:25,725 | INFO    |    Covarianza: 4×4
+2026-06-17 12:01:25,729 | INFO    | 📊 Retornos esperados (Kelly-input): 4 activos
+2026-06-17 12:01:25,729 | INFO    | ⚙️ Optimización Kelly (4 activos, fracción=40%)...
+2026-06-17 12:01:25,740 | INFO    |    Kelly analítico: w_raw = [-12.85755446   8.04676841  14.24030865  -4.9434038 ]
+2026-06-17 12:01:25,740 | INFO    |    Peso Kelly 1: 0.00%
+2026-06-17 12:01:25,740 | INFO    |    Peso Kelly 2: 20.00%
+2026-06-17 12:01:25,740 | INFO    |    Peso Kelly 3: 20.00%
+2026-06-17 12:01:25,740 | INFO    |    Peso Kelly 4: 0.00%
+2026-06-17 12:01:25,741 | INFO    | 📏 Vol scaling: 0.7% → 0.7% (ratio=2.00)
+2026-06-17 12:01:25,741 | INFO    | ==================================================
+2026-06-17 12:01:25,742 | INFO    | 📋 ASIGNACIÓN KELLY (40% fracción, riesgo=100%):
+2026-06-17 12:01:25,742 | INFO    |    AAPL:   0.0% → $    0.00
+2026-06-17 12:01:25,742 | INFO    |    GLD:  20.0% → $  200.00
+2026-06-17 12:01:25,742 | INFO    |    SPY:  20.0% → $  200.00
+2026-06-17 12:01:25,742 | INFO    |    XOM:   0.0% → $    0.00
+2026-06-17 12:01:25,742 | INFO    | ==================================================
+2026-06-17 12:01:25,742 | INFO    | 💼 Ejecutando asignación dinámica...
+2026-06-17 12:01:25,742 | INFO    |    Capital: $1000.00 | Factor riesgo: 1.00
+2026-06-17 12:01:25,775 | INFO    |    ⏭️  AAPL: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-17 12:01:25,832 | INFO    |    ⏭️  GLD: Costo $0.40 > Beneficio esperado $0.01
+2026-06-17 12:01:25,888 | INFO    |    ⏭️  SPY: Costo $0.40 > Beneficio esperado $0.00
+2026-06-17 12:01:25,921 | INFO    |    ⏭️  XOM: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-17 12:01:25,921 | INFO    | ✅ Asignación dinámica completada.
+
+2026-06-17 12:01:25,922 | INFO    | 📊 Trades hoy: 0
+2026-06-17 12:01:25,922 | INFO    | ✅ CICLO HORARIO COMPLETADO.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781722868.463911 1896260 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-17 13:01:19,649 | INFO    | ✅ Modelo LSTM (intradía): /home/robertosousa1_618/alpacamodels/strategies/models/lstm_spy_modelo.keras
+2026-06-17 13:01:19,651 | INFO    | 🚀 BOT HORARIO INICIADO — Un solo ciclo
+2026-06-17 13:01:19,651 | INFO    | =======================================================
+2026-06-17 13:01:19,651 | INFO    | 🔄 CICLO HORARIO — Pipeline multi-activo intradía...
+2026-06-17 13:01:19,651 | INFO    | 📈 Activos: AAPL, GLD, SPY, XOM
+2026-06-17 13:01:19,651 | INFO    | 📐 Kelly: 40% | Vol target: 12%
+2026-06-17 13:01:19,651 | INFO    | =======================================================
+2026-06-17 13:01:19,824 | INFO    | ✅ Alpaca: status=ACTIVE, cash=$1000.00
+2026-06-17 13:01:22,664 | INFO    | ✅ AAPL: 676 velas 15min
+2026-06-17 13:01:23,055 | INFO    | ✅ GLD: 631 velas 15min
+2026-06-17 13:01:25,864 | INFO    | ✅ SPY: 681 velas 15min
+2026-06-17 13:01:26,452 | INFO    | ✅ XOM: 588 velas 15min
+2026-06-17 13:01:26,452 | INFO    | 🔍 Data Sanity Check — Validando datos de entrada...
+2026-06-17 13:01:26,475 | INFO    | ✅ Sanity Check: TODOS LOS DATOS VÁLIDOS
+2026-06-17 13:01:26,482 | INFO    | 🌡️ Régimen: NORMAL | Vol máx=8.8% → Riesgo completo
+2026-06-17 13:01:26,489 | INFO    | 🔮 AAPL: 40.0% (intradía)
+2026-06-17 13:01:26,489 | INFO    | 🔮 GLD: 40.0% (intradía)
+2026-06-17 13:01:27,088 | INFO    | 🔮 SPY: 57.4% (intradía)
+2026-06-17 13:01:27,090 | INFO    | 🔮 XOM: 40.0% (intradía)
+2026-06-17 13:01:27,090 | INFO    | 🔄 Pipeline de optimización completo (Kelly + Vol Dinámica)...
+2026-06-17 13:01:27,090 | INFO    | 📐 Matriz de covarianza rodante (60 días)...
+2026-06-17 13:01:27,122 | INFO    |    Covarianza: 4×4
+2026-06-17 13:01:27,125 | INFO    | 📊 Retornos esperados (Kelly-input): 4 activos
+2026-06-17 13:01:27,125 | INFO    | ⚙️ Optimización Kelly (4 activos, fracción=40%)...
+2026-06-17 13:01:27,134 | INFO    |    Kelly analítico: w_raw = [-11.86954164 -20.81261966  55.73595407  -9.15789733]
+2026-06-17 13:01:27,135 | INFO    |    Peso Kelly 1: 0.00%
+2026-06-17 13:01:27,135 | INFO    |    Peso Kelly 2: 0.00%
+2026-06-17 13:01:27,135 | INFO    |    Peso Kelly 3: 40.00%
+2026-06-17 13:01:27,135 | INFO    |    Peso Kelly 4: 0.00%
+2026-06-17 13:01:27,136 | INFO    | 📏 Vol scaling: 0.9% → 0.9% (ratio=2.00)
+2026-06-17 13:01:27,136 | INFO    | ==================================================
+2026-06-17 13:01:27,136 | INFO    | 📋 ASIGNACIÓN KELLY (40% fracción, riesgo=100%):
+2026-06-17 13:01:27,136 | INFO    |    AAPL:   0.0% → $    0.00
+2026-06-17 13:01:27,136 | INFO    |    GLD:   0.0% → $    0.00
+2026-06-17 13:01:27,136 | INFO    |    SPY:  40.0% → $  400.00
+2026-06-17 13:01:27,137 | INFO    |    XOM:   0.0% → $    0.00
+2026-06-17 13:01:27,137 | INFO    | ==================================================
+2026-06-17 13:01:27,137 | INFO    | 💼 Ejecutando asignación dinámica...
+2026-06-17 13:01:27,137 | INFO    |    Capital: $1000.00 | Factor riesgo: 1.00
+2026-06-17 13:01:27,177 | INFO    |    ⏭️  AAPL: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-17 13:01:27,208 | INFO    |    ⏭️  GLD: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-17 13:01:27,240 | INFO    |    ⏭️  SPY: Costo $0.80 > Beneficio esperado $0.01
+2026-06-17 13:01:27,270 | INFO    |    ⏭️  XOM: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-17 13:01:27,270 | INFO    | ✅ Asignación dinámica completada.
+
+2026-06-17 13:01:27,271 | INFO    | 📊 Trades hoy: 0
+2026-06-17 13:01:27,271 | INFO    | ✅ CICLO HORARIO COMPLETADO.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781726468.322576 1900198 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-17 14:01:19,421 | INFO    | ✅ Modelo LSTM (intradía): /home/robertosousa1_618/alpacamodels/strategies/models/lstm_spy_modelo.keras
+2026-06-17 14:01:19,425 | INFO    | 🚀 BOT HORARIO INICIADO — Un solo ciclo
+2026-06-17 14:01:19,425 | INFO    | =======================================================
+2026-06-17 14:01:19,425 | INFO    | 🔄 CICLO HORARIO — Pipeline multi-activo intradía...
+2026-06-17 14:01:19,425 | INFO    | 📈 Activos: AAPL, GLD, SPY, XOM
+2026-06-17 14:01:19,425 | INFO    | 📐 Kelly: 40% | Vol target: 12%
+2026-06-17 14:01:19,425 | INFO    | =======================================================
+2026-06-17 14:01:19,574 | INFO    | ✅ Alpaca: status=ACTIVE, cash=$1000.00
+2026-06-17 14:01:20,360 | INFO    | ✅ AAPL: 679 velas 15min
+2026-06-17 14:01:20,731 | INFO    | ✅ GLD: 634 velas 15min
+2026-06-17 14:01:21,473 | INFO    | ✅ SPY: 685 velas 15min
+2026-06-17 14:01:21,972 | INFO    | ✅ XOM: 591 velas 15min
+2026-06-17 14:01:21,973 | INFO    | 🔍 Data Sanity Check — Validando datos de entrada...
+2026-06-17 14:01:21,997 | INFO    | ✅ Sanity Check: TODOS LOS DATOS VÁLIDOS
+2026-06-17 14:01:22,004 | INFO    | 🌡️ Régimen: NORMAL | Vol máx=9.2% → Riesgo completo
+2026-06-17 14:01:22,010 | INFO    | 🔮 AAPL: 40.0% (intradía)
+2026-06-17 14:01:22,011 | INFO    | 🔮 GLD: 40.0% (intradía)
+2026-06-17 14:01:22,826 | INFO    | 🔮 SPY: 57.5% (intradía)
+2026-06-17 14:01:22,827 | INFO    | 🔮 XOM: 40.0% (intradía)
+2026-06-17 14:01:22,827 | INFO    | 🔄 Pipeline de optimización completo (Kelly + Vol Dinámica)...
+2026-06-17 14:01:22,827 | INFO    | 📐 Matriz de covarianza rodante (60 días)...
+2026-06-17 14:01:22,854 | INFO    |    Covarianza: 4×4
+2026-06-17 14:01:22,858 | INFO    | 📊 Retornos esperados (Kelly-input): 4 activos
+2026-06-17 14:01:22,858 | INFO    | ⚙️ Optimización Kelly (4 activos, fracción=40%)...
+2026-06-17 14:01:22,867 | INFO    |    Kelly analítico: w_raw = [-11.0875345  -16.18827973  41.13659206  -8.73638142]
+2026-06-17 14:01:22,867 | INFO    |    Peso Kelly 1: 0.00%
+2026-06-17 14:01:22,867 | INFO    |    Peso Kelly 2: 0.00%
+2026-06-17 14:01:22,867 | INFO    |    Peso Kelly 3: 40.00%
+2026-06-17 14:01:22,867 | INFO    |    Peso Kelly 4: 0.00%
+2026-06-17 14:01:22,868 | INFO    | 📏 Vol scaling: 1.0% → 1.0% (ratio=2.00)
+2026-06-17 14:01:22,868 | INFO    | ==================================================
+2026-06-17 14:01:22,868 | INFO    | 📋 ASIGNACIÓN KELLY (40% fracción, riesgo=100%):
+2026-06-17 14:01:22,868 | INFO    |    AAPL:   0.0% → $    0.00
+2026-06-17 14:01:22,868 | INFO    |    GLD:   0.0% → $    0.00
+2026-06-17 14:01:22,868 | INFO    |    SPY:  40.0% → $  400.00
+2026-06-17 14:01:22,868 | INFO    |    XOM:   0.0% → $    0.00
+2026-06-17 14:01:22,868 | INFO    | ==================================================
+2026-06-17 14:01:22,869 | INFO    | 💼 Ejecutando asignación dinámica...
+2026-06-17 14:01:22,869 | INFO    |    Capital: $1000.00 | Factor riesgo: 1.00
+2026-06-17 14:01:22,900 | INFO    |    ⏭️  AAPL: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-17 14:01:22,932 | INFO    |    ⏭️  GLD: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-17 14:01:22,964 | INFO    |    ⏭️  SPY: Costo $0.80 > Beneficio esperado $0.01
+2026-06-17 14:01:22,997 | INFO    |    ⏭️  XOM: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-17 14:01:22,998 | INFO    | ✅ Asignación dinámica completada.
+
+2026-06-17 14:01:22,998 | INFO    | 📊 Trades hoy: 0
+2026-06-17 14:01:22,998 | INFO    | ✅ CICLO HORARIO COMPLETADO.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781794868.241253 1974030 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-18 09:01:19,836 | INFO    | ✅ Modelo LSTM (intradía): /home/robertosousa1_618/alpacamodels/strategies/models/lstm_spy_modelo.keras
+2026-06-18 09:01:19,839 | INFO    | 🚀 BOT HORARIO INICIADO — Un solo ciclo
+2026-06-18 09:01:19,840 | INFO    | =======================================================
+2026-06-18 09:01:19,840 | INFO    | 🔄 CICLO HORARIO — Pipeline multi-activo intradía...
+2026-06-18 09:01:19,840 | INFO    | 📈 Activos: AAPL, GLD, SPY, XOM
+2026-06-18 09:01:19,840 | INFO    | 📐 Kelly: 40% | Vol target: 12%
+2026-06-18 09:01:19,840 | INFO    | =======================================================
+2026-06-18 09:01:20,030 | INFO    | ✅ Alpaca: status=ACTIVE, cash=$1000.00
+2026-06-18 09:01:21,081 | INFO    | ✅ AAPL: 661 velas 15min
+2026-06-18 09:01:22,093 | INFO    | ✅ GLD: 617 velas 15min
+2026-06-18 09:01:23,020 | INFO    | ✅ SPY: 666 velas 15min
+2026-06-18 09:01:25,113 | INFO    | ✅ XOM: 572 velas 15min
+2026-06-18 09:01:25,113 | INFO    | 🔍 Data Sanity Check — Validando datos de entrada...
+2026-06-18 09:01:25,138 | INFO    | ✅ Sanity Check: TODOS LOS DATOS VÁLIDOS
+2026-06-18 09:01:25,146 | INFO    | 🌡️ Régimen: NORMAL | Vol máx=11.2% → Riesgo completo
+2026-06-18 09:01:25,152 | INFO    | 🔮 AAPL: 60.0% (intradía)
+2026-06-18 09:01:25,153 | INFO    | 🔮 GLD: 40.0% (intradía)
+2026-06-18 09:01:26,017 | INFO    | 🔮 SPY: 57.6% (intradía)
+2026-06-18 09:01:26,018 | INFO    | 🔮 XOM: 40.0% (intradía)
+2026-06-18 09:01:26,018 | INFO    | 🔄 Pipeline de optimización completo (Kelly + Vol Dinámica)...
+2026-06-18 09:01:26,018 | INFO    | 📐 Matriz de covarianza rodante (60 días)...
+2026-06-18 09:01:26,046 | INFO    |    Covarianza: 4×4
+2026-06-18 09:01:26,050 | INFO    | 📊 Retornos esperados (Kelly-input): 4 activos
+2026-06-18 09:01:26,050 | INFO    | ⚙️ Optimización Kelly (4 activos, fracción=40%)...
+2026-06-18 09:01:26,060 | INFO    |    Kelly analítico: w_raw = [  2.57765778 -13.18934542  26.42175672 -11.13895249]
+2026-06-18 09:01:26,061 | INFO    |    Peso Kelly 1: 20.00%
+2026-06-18 09:01:26,061 | INFO    |    Peso Kelly 2: 0.00%
+2026-06-18 09:01:26,061 | INFO    |    Peso Kelly 3: 20.00%
+2026-06-18 09:01:26,061 | INFO    |    Peso Kelly 4: 0.00%
+2026-06-18 09:01:26,062 | INFO    | 📏 Vol scaling: 1.1% → 1.1% (ratio=2.00)
+2026-06-18 09:01:26,063 | INFO    | ==================================================
+2026-06-18 09:01:26,064 | INFO    | 📋 ASIGNACIÓN KELLY (40% fracción, riesgo=100%):
+2026-06-18 09:01:26,064 | INFO    |    AAPL:  20.0% → $  200.00
+2026-06-18 09:01:26,064 | INFO    |    GLD:   0.0% → $    0.00
+2026-06-18 09:01:26,064 | INFO    |    SPY:  20.0% → $  200.00
+2026-06-18 09:01:26,064 | INFO    |    XOM:   0.0% → $    0.00
+2026-06-18 09:01:26,064 | INFO    | ==================================================
+2026-06-18 09:01:26,065 | INFO    | 💼 Ejecutando asignación dinámica...
+2026-06-18 09:01:26,065 | INFO    |    Capital: $1000.00 | Factor riesgo: 1.00
+2026-06-18 09:01:26,345 | INFO    |    ⏭️  AAPL: Costo $0.40 > Beneficio esperado $0.00
+2026-06-18 09:01:26,416 | INFO    |    ⏭️  GLD: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-18 09:01:26,468 | INFO    |    ⏭️  SPY: Costo $0.40 > Beneficio esperado $0.00
+2026-06-18 09:01:26,503 | INFO    |    ⏭️  XOM: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-18 09:01:26,504 | INFO    | ✅ Asignación dinámica completada.
+
+2026-06-18 09:01:26,504 | INFO    | 📊 Trades hoy: 0
+2026-06-18 09:01:26,504 | INFO    | ✅ CICLO HORARIO COMPLETADO.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781798469.041029 1977764 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-18 10:01:21,620 | INFO    | ✅ Modelo LSTM (intradía): /home/robertosousa1_618/alpacamodels/strategies/models/lstm_spy_modelo.keras
+2026-06-18 10:01:21,624 | INFO    | 🚀 BOT HORARIO INICIADO — Un solo ciclo
+2026-06-18 10:01:21,624 | INFO    | =======================================================
+2026-06-18 10:01:21,625 | INFO    | 🔄 CICLO HORARIO — Pipeline multi-activo intradía...
+2026-06-18 10:01:21,625 | INFO    | 📈 Activos: AAPL, GLD, SPY, XOM
+2026-06-18 10:01:21,625 | INFO    | 📐 Kelly: 40% | Vol target: 12%
+2026-06-18 10:01:21,625 | INFO    | =======================================================
+2026-06-18 10:01:21,829 | INFO    | ✅ Alpaca: status=ACTIVE, cash=$1000.00
+2026-06-18 10:01:22,799 | INFO    | ✅ AAPL: 665 velas 15min
+2026-06-18 10:01:23,326 | INFO    | ✅ GLD: 622 velas 15min
+2026-06-18 10:01:24,044 | INFO    | ✅ SPY: 670 velas 15min
+2026-06-18 10:01:26,298 | INFO    | ✅ XOM: 576 velas 15min
+2026-06-18 10:01:26,298 | INFO    | 🔍 Data Sanity Check — Validando datos de entrada...
+2026-06-18 10:01:26,328 | INFO    | ✅ Sanity Check: TODOS LOS DATOS VÁLIDOS
+2026-06-18 10:01:26,339 | INFO    | 🌡️ Régimen: NORMAL | Vol máx=11.1% → Riesgo completo
+2026-06-18 10:01:26,348 | INFO    | 🔮 AAPL: 40.0% (intradía)
+2026-06-18 10:01:26,349 | INFO    | 🔮 GLD: 40.0% (intradía)
+2026-06-18 10:01:26,964 | INFO    | 🔮 SPY: 57.5% (intradía)
+2026-06-18 10:01:26,966 | INFO    | 🔮 XOM: 40.0% (intradía)
+2026-06-18 10:01:26,967 | INFO    | 🔄 Pipeline de optimización completo (Kelly + Vol Dinámica)...
+2026-06-18 10:01:26,967 | INFO    | 📐 Matriz de covarianza rodante (60 días)...
+2026-06-18 10:01:27,006 | INFO    |    Covarianza: 4×4
+2026-06-18 10:01:27,010 | INFO    | 📊 Retornos esperados (Kelly-input): 4 activos
+2026-06-18 10:01:27,011 | INFO    | ⚙️ Optimización Kelly (4 activos, fracción=40%)...
+2026-06-18 10:01:27,023 | INFO    |    Kelly analítico: w_raw = [ -9.20702139 -13.22685808  34.49315296 -12.33977222]
+2026-06-18 10:01:27,023 | INFO    |    Peso Kelly 1: 0.00%
+2026-06-18 10:01:27,023 | INFO    |    Peso Kelly 2: 0.00%
+2026-06-18 10:01:27,023 | INFO    |    Peso Kelly 3: 40.00%
+2026-06-18 10:01:27,023 | INFO    |    Peso Kelly 4: 0.00%
+2026-06-18 10:01:27,024 | INFO    | 📏 Vol scaling: 1.1% → 1.1% (ratio=2.00)
+2026-06-18 10:01:27,025 | INFO    | ==================================================
+2026-06-18 10:01:27,025 | INFO    | 📋 ASIGNACIÓN KELLY (40% fracción, riesgo=100%):
+2026-06-18 10:01:27,025 | INFO    |    AAPL:   0.0% → $    0.00
+2026-06-18 10:01:27,025 | INFO    |    GLD:   0.0% → $    0.00
+2026-06-18 10:01:27,025 | INFO    |    SPY:  40.0% → $  400.00
+2026-06-18 10:01:27,025 | INFO    |    XOM:   0.0% → $    0.00
+2026-06-18 10:01:27,025 | INFO    | ==================================================
+2026-06-18 10:01:27,025 | INFO    | 💼 Ejecutando asignación dinámica...
+2026-06-18 10:01:27,025 | INFO    |    Capital: $1000.00 | Factor riesgo: 1.00
+2026-06-18 10:01:27,058 | INFO    |    ⏭️  AAPL: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-18 10:01:27,089 | INFO    |    ⏭️  GLD: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-18 10:01:27,120 | INFO    |    ⏭️  SPY: Costo $0.80 > Beneficio esperado $0.01
+2026-06-18 10:01:27,152 | INFO    |    ⏭️  XOM: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-18 10:01:27,152 | INFO    | ✅ Asignación dinámica completada.
+
+2026-06-18 10:01:27,153 | INFO    | 📊 Trades hoy: 0
+2026-06-18 10:01:27,153 | INFO    | ✅ CICLO HORARIO COMPLETADO.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781802068.406486 1981745 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-18 11:01:20,253 | INFO    | ✅ Modelo LSTM (intradía): /home/robertosousa1_618/alpacamodels/strategies/models/lstm_spy_modelo.keras
+2026-06-18 11:01:20,256 | INFO    | 🚀 BOT HORARIO INICIADO — Un solo ciclo
+2026-06-18 11:01:20,256 | INFO    | =======================================================
+2026-06-18 11:01:20,256 | INFO    | 🔄 CICLO HORARIO — Pipeline multi-activo intradía...
+2026-06-18 11:01:20,257 | INFO    | 📈 Activos: AAPL, GLD, SPY, XOM
+2026-06-18 11:01:20,257 | INFO    | 📐 Kelly: 40% | Vol target: 12%
+2026-06-18 11:01:20,257 | INFO    | =======================================================
+2026-06-18 11:01:20,440 | INFO    | ✅ Alpaca: status=ACTIVE, cash=$1000.00
+2026-06-18 11:01:22,184 | INFO    | ✅ AAPL: 669 velas 15min
+2026-06-18 11:01:22,664 | INFO    | ✅ GLD: 625 velas 15min
+2026-06-18 11:01:23,543 | INFO    | ✅ SPY: 674 velas 15min
+2026-06-18 11:01:24,866 | INFO    | ✅ XOM: 580 velas 15min
+2026-06-18 11:01:24,866 | INFO    | 🔍 Data Sanity Check — Validando datos de entrada...
+2026-06-18 11:01:24,896 | INFO    | ✅ Sanity Check: TODOS LOS DATOS VÁLIDOS
+2026-06-18 11:01:24,905 | INFO    | 🌡️ Régimen: NORMAL | Vol máx=11.1% → Riesgo completo
+2026-06-18 11:01:24,914 | INFO    | 🔮 AAPL: 40.0% (intradía)
+2026-06-18 11:01:24,915 | INFO    | 🔮 GLD: 40.0% (intradía)
+2026-06-18 11:01:25,586 | INFO    | 🔮 SPY: 57.4% (intradía)
+2026-06-18 11:01:25,587 | INFO    | 🔮 XOM: 40.0% (intradía)
+2026-06-18 11:01:25,587 | INFO    | 🔄 Pipeline de optimización completo (Kelly + Vol Dinámica)...
+2026-06-18 11:01:25,588 | INFO    | 📐 Matriz de covarianza rodante (60 días)...
+2026-06-18 11:01:25,620 | INFO    |    Covarianza: 4×4
+2026-06-18 11:01:25,629 | INFO    | 📊 Retornos esperados (Kelly-input): 4 activos
+2026-06-18 11:01:25,629 | INFO    | ⚙️ Optimización Kelly (4 activos, fracción=40%)...
+2026-06-18 11:01:25,641 | INFO    |    Kelly analítico: w_raw = [-12.40550964 -13.35478595  38.02812718 -14.19983692]
+2026-06-18 11:01:25,641 | INFO    |    Peso Kelly 1: 0.00%
+2026-06-18 11:01:25,641 | INFO    |    Peso Kelly 2: 0.00%
+2026-06-18 11:01:25,641 | INFO    |    Peso Kelly 3: 40.00%
+2026-06-18 11:01:25,641 | INFO    |    Peso Kelly 4: 0.00%
+2026-06-18 11:01:25,642 | INFO    | 📏 Vol scaling: 1.1% → 1.1% (ratio=2.00)
+2026-06-18 11:01:25,643 | INFO    | ==================================================
+2026-06-18 11:01:25,643 | INFO    | 📋 ASIGNACIÓN KELLY (40% fracción, riesgo=100%):
+2026-06-18 11:01:25,643 | INFO    |    AAPL:   0.0% → $    0.00
+2026-06-18 11:01:25,643 | INFO    |    GLD:   0.0% → $    0.00
+2026-06-18 11:01:25,643 | INFO    |    SPY:  40.0% → $  400.00
+2026-06-18 11:01:25,643 | INFO    |    XOM:   0.0% → $    0.00
+2026-06-18 11:01:25,643 | INFO    | ==================================================
+2026-06-18 11:01:25,643 | INFO    | 💼 Ejecutando asignación dinámica...
+2026-06-18 11:01:25,643 | INFO    |    Capital: $1000.00 | Factor riesgo: 1.00
+2026-06-18 11:01:25,700 | INFO    |    ⏭️  AAPL: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-18 11:01:25,734 | INFO    |    ⏭️  GLD: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-18 11:01:25,765 | INFO    |    ⏭️  SPY: Costo $0.80 > Beneficio esperado $0.01
+2026-06-18 11:01:25,799 | INFO    |    ⏭️  XOM: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-18 11:01:25,799 | INFO    | ✅ Asignación dinámica completada.
+
+2026-06-18 11:01:25,800 | INFO    | 📊 Trades hoy: 0
+2026-06-18 11:01:25,800 | INFO    | ✅ CICLO HORARIO COMPLETADO.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781805669.263682 1985671 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-18 12:01:22,334 | INFO    | ✅ Modelo LSTM (intradía): /home/robertosousa1_618/alpacamodels/strategies/models/lstm_spy_modelo.keras
+2026-06-18 12:01:22,338 | INFO    | 🚀 BOT HORARIO INICIADO — Un solo ciclo
+2026-06-18 12:01:22,338 | INFO    | =======================================================
+2026-06-18 12:01:22,338 | INFO    | 🔄 CICLO HORARIO — Pipeline multi-activo intradía...
+2026-06-18 12:01:22,339 | INFO    | 📈 Activos: AAPL, GLD, SPY, XOM
+2026-06-18 12:01:22,339 | INFO    | 📐 Kelly: 40% | Vol target: 12%
+2026-06-18 12:01:22,339 | INFO    | =======================================================
+2026-06-18 12:01:22,525 | INFO    | ✅ Alpaca: status=ACTIVE, cash=$1000.00
+2026-06-18 12:01:24,050 | INFO    | ✅ AAPL: 673 velas 15min
+2026-06-18 12:01:24,677 | INFO    | ✅ GLD: 629 velas 15min
+2026-06-18 12:01:25,470 | INFO    | ✅ SPY: 678 velas 15min
+2026-06-18 12:01:26,698 | INFO    | ✅ XOM: 584 velas 15min
+2026-06-18 12:01:26,698 | INFO    | 🔍 Data Sanity Check — Validando datos de entrada...
+2026-06-18 12:01:26,729 | INFO    | ✅ Sanity Check: TODOS LOS DATOS VÁLIDOS
+2026-06-18 12:01:26,740 | INFO    | 🌡️ Régimen: NORMAL | Vol máx=11.2% → Riesgo completo
+2026-06-18 12:01:26,748 | INFO    | 🔮 AAPL: 40.0% (intradía)
+2026-06-18 12:01:26,749 | INFO    | 🔮 GLD: 40.0% (intradía)
+2026-06-18 12:01:27,670 | INFO    | 🔮 SPY: 57.4% (intradía)
+2026-06-18 12:01:27,673 | INFO    | 🔮 XOM: 60.0% (intradía)
+2026-06-18 12:01:27,674 | INFO    | 🔄 Pipeline de optimización completo (Kelly + Vol Dinámica)...
+2026-06-18 12:01:27,674 | INFO    | 📐 Matriz de covarianza rodante (60 días)...
+2026-06-18 12:01:27,709 | INFO    |    Covarianza: 4×4
+2026-06-18 12:01:27,713 | INFO    | 📊 Retornos esperados (Kelly-input): 4 activos
+2026-06-18 12:01:27,713 | INFO    | ⚙️ Optimización Kelly (4 activos, fracción=40%)...
+2026-06-18 12:01:27,722 | INFO    |    Kelly analítico: w_raw = [-10.02796271 -10.19939355  27.61076012  10.82751487]
+2026-06-18 12:01:27,723 | INFO    |    Peso Kelly 1: 0.00%
+2026-06-18 12:01:27,723 | INFO    |    Peso Kelly 2: 0.00%
+2026-06-18 12:01:27,723 | INFO    |    Peso Kelly 3: 20.00%
+2026-06-18 12:01:27,723 | INFO    |    Peso Kelly 4: 20.00%
+2026-06-18 12:01:27,725 | INFO    | 📏 Vol scaling: 0.8% → 0.8% (ratio=2.00)
+2026-06-18 12:01:27,725 | INFO    | ==================================================
+2026-06-18 12:01:27,725 | INFO    | 📋 ASIGNACIÓN KELLY (40% fracción, riesgo=100%):
+2026-06-18 12:01:27,725 | INFO    |    AAPL:   0.0% → $    0.00
+2026-06-18 12:01:27,725 | INFO    |    GLD:   0.0% → $    0.00
+2026-06-18 12:01:27,726 | INFO    |    SPY:  20.0% → $  200.00
+2026-06-18 12:01:27,726 | INFO    |    XOM:  20.0% → $  200.00
+2026-06-18 12:01:27,726 | INFO    | ==================================================
+2026-06-18 12:01:27,726 | INFO    | 💼 Ejecutando asignación dinámica...
+2026-06-18 12:01:27,726 | INFO    |    Capital: $1000.00 | Factor riesgo: 1.00
+2026-06-18 12:01:27,772 | INFO    |    ⏭️  AAPL: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-18 12:01:27,804 | INFO    |    ⏭️  GLD: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-18 12:01:27,836 | INFO    |    ⏭️  SPY: Costo $0.40 > Beneficio esperado $0.00
+2026-06-18 12:01:27,870 | INFO    |    ⏭️  XOM: Costo $0.40 > Beneficio esperado $0.01
+2026-06-18 12:01:27,870 | INFO    | ✅ Asignación dinámica completada.
+
+2026-06-18 12:01:27,871 | INFO    | 📊 Trades hoy: 0
+2026-06-18 12:01:27,871 | INFO    | ✅ CICLO HORARIO COMPLETADO.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1781809265.636837 1989601 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-18 13:01:18,091 | INFO    | ✅ Modelo LSTM (intradía): /home/robertosousa1_618/alpacamodels/strategies/models/lstm_spy_modelo.keras
+2026-06-18 13:01:18,094 | INFO    | 🚀 BOT HORARIO INICIADO — Un solo ciclo
+2026-06-18 13:01:18,094 | INFO    | =======================================================
+2026-06-18 13:01:18,094 | INFO    | 🔄 CICLO HORARIO — Pipeline multi-activo intradía...
+2026-06-18 13:01:18,094 | INFO    | 📈 Activos: AAPL, GLD, SPY, XOM
+2026-06-18 13:01:18,094 | INFO    | 📐 Kelly: 40% | Vol target: 12%
+2026-06-18 13:01:18,094 | INFO    | =======================================================
+2026-06-18 13:01:18,319 | INFO    | ✅ Alpaca: status=ACTIVE, cash=$0.02
+2026-06-18 13:01:19,544 | INFO    | ✅ AAPL: 677 velas 15min
+2026-06-18 13:01:20,419 | INFO    | ✅ GLD: 634 velas 15min
+2026-06-18 13:01:21,402 | INFO    | ✅ SPY: 682 velas 15min
+2026-06-18 13:01:23,641 | INFO    | ✅ XOM: 588 velas 15min
+2026-06-18 13:01:23,641 | INFO    | 🔍 Data Sanity Check — Validando datos de entrada...
+2026-06-18 13:01:23,668 | INFO    | ✅ Sanity Check: TODOS LOS DATOS VÁLIDOS
+2026-06-18 13:01:23,678 | INFO    | 🌡️ Régimen: NORMAL | Vol máx=3.4% → Riesgo completo
+2026-06-18 13:01:23,686 | INFO    | 🔮 AAPL: 40.0% (intradía)
+2026-06-18 13:01:23,687 | INFO    | 🔮 GLD: 40.0% (intradía)
+2026-06-18 13:01:24,627 | INFO    | 🔮 SPY: 57.4% (intradía)
+2026-06-18 13:01:24,628 | INFO    | 🔮 XOM: 60.0% (intradía)
+2026-06-18 13:01:24,628 | INFO    | 🔄 Pipeline de optimización completo (Kelly + Vol Dinámica)...
+2026-06-18 13:01:24,629 | INFO    | 📐 Matriz de covarianza rodante (60 días)...
+2026-06-18 13:01:24,662 | INFO    |    Covarianza: 4×4
+2026-06-18 13:01:24,665 | INFO    | 📊 Retornos esperados (Kelly-input): 4 activos
+2026-06-18 13:01:24,666 | INFO    | ⚙️ Optimización Kelly (4 activos, fracción=40%)...
+2026-06-18 13:01:24,675 | INFO    |    Kelly analítico: w_raw = [ -9.91960613 -10.37764341  27.35850211  11.02723036]
+2026-06-18 13:01:24,675 | INFO    |    Peso Kelly 1: 0.00%
+2026-06-18 13:01:24,675 | INFO    |    Peso Kelly 2: 0.00%
+2026-06-18 13:01:24,675 | INFO    |    Peso Kelly 3: 20.00%
+2026-06-18 13:01:24,675 | INFO    |    Peso Kelly 4: 20.00%
+2026-06-18 13:01:24,676 | INFO    | 📏 Vol scaling: 0.8% → 0.8% (ratio=2.00)
+2026-06-18 13:01:24,677 | INFO    | ==================================================
+2026-06-18 13:01:24,677 | INFO    | 📋 ASIGNACIÓN KELLY (40% fracción, riesgo=100%):
+2026-06-18 13:01:24,677 | INFO    |    AAPL:   0.0% → $    0.00
+2026-06-18 13:01:24,677 | INFO    |    GLD:   0.0% → $    0.00
+2026-06-18 13:01:24,677 | INFO    |    SPY:  20.0% → $    0.00
+2026-06-18 13:01:24,677 | INFO    |    XOM:  20.0% → $    0.00
+2026-06-18 13:01:24,677 | INFO    | ==================================================
+2026-06-18 13:01:24,677 | INFO    | 💼 Ejecutando asignación dinámica...
+2026-06-18 13:01:24,677 | INFO    |    Capital: $0.02 | Factor riesgo: 1.00
+2026-06-18 13:01:24,710 | INFO    |    ⏭️  AAPL: Costo $100.00 > Beneficio esperado $1.25
+2026-06-18 13:01:24,740 | INFO    |    ⏭️  GLD: Cambio mínimo (0.00%) < umbral (0.1%)
+2026-06-18 13:01:24,772 | INFO    |    ⏭️  SPY: Costo $99.98 > Beneficio esperado $0.71
+2026-06-18 13:01:24,806 | INFO    | ✅ XOM: Cambio=20.00% | Monto=$0.00 | Costo=$0.00 | Beneficio_esp=$0.00
+2026-06-18 13:01:24,806 | INFO    |    ✅ XOM: Sin cambios (diferencia < $1)
+2026-06-18 13:01:24,806 | INFO    | ✅ Asignación dinámica completada.
+
+2026-06-18 13:01:24,807 | INFO    | 📊 Trades hoy: 1
+2026-06-18 13:01:24,807 | INFO    | ✅ CICLO HORARIO COMPLETADO.
+
